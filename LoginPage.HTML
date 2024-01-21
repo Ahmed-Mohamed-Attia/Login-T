@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="login.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+</head>
+<body>
+    <!-- make a form for login with an image on the left side and content on the right side -->
+    <div class="container">
+        <div class="left">
+            <img src="https://i.guim.co.uk/img/media/e70b54a4e48aa3be92d7691bb3b2426ad2a8a4fb/0_134_2400_1440/master/2400.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=dfb1adea90458f1f7b2f7e1c1becf423" alt="Image">
+        </div>
+        <div class="right">
+            <div class="logo">
+                <img src="your-logo.png" alt="Logo">
+            </div>
+            <h1>Login</h1>
+            <form action="login.php" method="post">
+                <input type="text" name="username" placeholder="Username" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <input type="submit" value="Login">
+                <div class="links">
+                    <a href="register.php">Register</a>
+                    <a href="forgot_password.php">Forgot Password</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
