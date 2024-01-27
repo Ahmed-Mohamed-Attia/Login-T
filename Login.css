@@ -7,11 +7,11 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    overflow: hidden; /* Hide scrollbar */
+    overflow: hidden;
 }
 
 html {
-    overflow: hidden; /* Hide scrollbar */
+    overflow: hidden;
 }
 
 .container {
@@ -19,11 +19,11 @@ html {
     height: 100vh;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 0; /* Remove padding */
+    padding: 0;
 }
 
 .left {
-    flex: 60%; /* Adjust width to 60% */
+    flex: 60%;
 }
 
 .left img {
@@ -37,7 +37,7 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex: 40%; /* Adjust width to 40% */
+    flex: 40%;
     padding: 20px;
 }
 
@@ -45,7 +45,7 @@ html {
     max-width: 100%;
     height: auto;
     margin-bottom: 20px;
-    border-radius: 50%; /* Make the logo a circle */
+    border-radius: 50%;
 }
 
 h1 {
@@ -64,7 +64,7 @@ input {
     padding: 10px;
     margin-bottom: 10px;
     box-sizing: border-box;
-    transition: background-color 0.3s; /* Add transition for smooth hover effect */
+    transition: background-color 0.3s;
 }
 
 input[type="submit"] {
@@ -74,11 +74,11 @@ input[type="submit"] {
 }
 
 input:focus {
-    outline: 2px solid #4caf50; /* Change focus outline color */
+    outline: 2px solid #4caf50;
 }
 
 input[type="submit"]:hover {
-    background-color: #45a049; /* Darker color on hover */
+    background-color: #45a049;
 }
 
 .links {
@@ -93,11 +93,11 @@ input[type="submit"]:hover {
     text-decoration: none;
     padding: 5px;
     text-align: center;
-    transition: background-color 0.3s; /* Add transition for smooth hover effect */
+    transition: background-color 0.3s;
 }
 
 .links a:hover {
-    background-color: #ddd; /* Darker color on hover */
+    background-color: #ddd;
 }
 
 .links a:first-child {
